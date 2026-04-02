@@ -1,0 +1,56 @@
+[global]
+    ### Геометрия и позиция ###
+    monitor = 0
+    follow = mouse
+    width = 320
+    height = 120
+    origin = top-right
+    offset = 20x20
+    scale = 0
+    notification_limit = 5
+
+    ### Дизайн под новые обои ###
+    # Глубокий темно-фиолетовый фон (взят с обоев)
+    background = "#2a1e3b"
+    # Мягкий лавандовый цвет для текста
+    foreground = "#c1b0d0"
+    # Акцентный бирюзовый/зеленоватый для рамки
+    frame_color = "#6c7d9e"
+    
+    # Тонкие рамки и скругления
+    frame_width = 1
+    corner_radius = 12
+    
+    # Тот же шрифт, что в твоем Waybar
+    font = JetBrainsMono Nerd Font 10
+    
+    ### Прогресс-бар (для громкости/яркости) ###
+    progress_bar = true
+    progress_bar_height = 8
+    progress_bar_frame_width = 1
+    # Цвет полоски (бирюзовый)
+    progress_bar_foreground = "#6c7d9e"
+    # Цвет фона полоски (чуть светлее фона)
+    progress_bar_background = "#3d2e4f"
+
+    ### Настройки отступов ###
+    padding = 16
+    horizontal_padding = 16
+    text_icon_padding = 12
+
+[urgency_low]
+    background = "#2a1e3b"
+    foreground = "#c1b0d0"
+    timeout = 5
+
+[urgency_normal]
+    background = "#2a1e3b"
+    foreground = "#c1b0d0"
+    timeout = 10
+
+[urgency_critical]
+    background = "#2a1e3b"
+    foreground = "#c1b0d0"
+    # Яркий, но подходящий акцент (напр., розоватый)
+    frame_color = "#e2b6d0" 
+    timeout = 0

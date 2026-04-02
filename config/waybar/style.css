@@ -1,0 +1,55 @@
+* {
+    border: none;
+    font-family: "JetBrainsMono Nerd Font", sans-serif;
+    font-size: 13px;
+}
+
+window#waybar {
+    background: transparent;
+}
+
+/* Рабочие столы и остальные модули */
+#workspaces, #clock, #language, #pulseaudio, #network, #tray {
+    background: #1e1e2e;
+    color: #cdd6f4;
+    margin: 4px 3px;
+    padding: 0 10px;
+    border-radius: 10px;
+}
+
+#workspaces button {
+    padding: 0 8px;
+    color: #585b70;
+}
+
+#workspaces button.active {
+    color: #89b4fa;
+    background: #313244;
+    border-radius: 8px;
+}
+
+#clock { color: #fab387; }
+#language { color: #f5c2e7; }
+#pulseaudio { color: #f9e2af; }
+#network { color: #a6e3a1; }
+
+#custom-power {
+    background: #1e1e2e;
+    color: #a6e3a1;
+    margin: 4px 3px;
+    padding-left: 6px;
+    padding-right: 7px;
+    padding-top: 0;
+    padding-bottom: 0;
+    border-radius: 10px;
+}
+
+#custom-menuu {
+    background: #1e1e2e;
+    font-size: 20px;
+    color: #b692b1;
+    margin: 4px 3px;
+    padding-left: 2px;
+    padding-right: 6px;
+    border-radius: 10px;
+}

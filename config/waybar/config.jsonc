@@ -1,0 +1,59 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 34,
+    "margin": "5 10 2 10",
+    "spacing": 0,
+
+    // Лого Арча будет самым первым слева
+    "modules-left": ["custom/menuu", "hyprland/workspaces"],
+    "modules-center": ["clock"],
+    "modules-right": ["pulseaudio", "hyprland/language", "network", "custom/power", "tray"],
+    
+    "custom/menuu": {
+        "format": " 󱄅 ",
+	"on-click": "rofi -show drun"
+    },	
+
+    "hyprland/workspaces": {
+        "format": "{name}",
+        "on-click": "activate",
+        "all-outputs": true,
+        "persistent-workspaces": {
+            "1": [], "2": [], "3": [], "4": [], "5": [],
+            "6": [], "7": []
+        }
+    },
+
+    "hyprland/language": {
+        "format": "{}",
+        "format-en": "EN",
+        "format-ru": "RU"
+    },
+
+    "clock": {
+        "format": "  {:%H:%M}"
+    },
+
+    "pulseaudio": {
+        "format": "{icon} {volume}%",
+        "format-icons": { "default": [" ", " "] },
+        "on-click": "pavucontrol"
+    },
+
+    "network": {
+        "format-wifi": " ",
+        "format-disconnected": "⚠",
+        "on-click": "sh /home/user/bin/wifimenu"
+    },
+    
+    "custom/power": {
+        "format": " ⏻ ",
+        "tooltip": false,
+        "on-click": "sh /home/user/bin/powermenu"
+    },
+
+    "tray": {
+        "spacing": 2
+    }
+}
