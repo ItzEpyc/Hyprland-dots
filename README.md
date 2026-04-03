@@ -3,6 +3,21 @@
 Минималистичный и эстетичный конфиг для Hyprland, заточенный под продуктивность и визуальный комфорт.
 ---
 
+<p align="center">
+  <img src="demonstaration/desktop.png" width="90%" />
+  <br>
+  <i>Основной рабочий стол: Hyprland + Waybar + Kitty</i>
+</p>
+
+<p align="center">
+  <img src="demonstaration/sddm.png" width="45%" />
+  <img src="demonstaration/rofi.png" width="45%" />
+  <br>
+  <i>Кастомная тема SDDM (Dark-Leaf) и лаунчер Rofi</i>
+</p>
+
+---
+
 ## 🛠 Зависимости (Dependencies)
 
 Для корректной работы всех элементов интерфейса (особенно темы SDDM) необходимо установить следующие пакеты:
