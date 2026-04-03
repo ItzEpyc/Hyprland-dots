@@ -4,16 +4,28 @@
 ---
 
 <p align="center">
-  <img src="demonstaration/desktop.png" width="90%" />
+  <img src="demonstaration/screen4.png" width="90%" />
   <br>
-  <i>Основной рабочий стол: Hyprland + Waybar + Kitty</i>
+  <i>Основной рабочий стол</i>
 </p>
 
 <p align="center">
-  <img src="demonstaration/sddm.png" width="45%" />
-  <img src="demonstaration/rofi.png" width="45%" />
+  <img src="demonstaration/screen1.png" width="90%" />
   <br>
-  <i>Кастомная тема SDDM (Dark-Leaf) и лаунчер Rofi</i>
+  <i>Основной рабочий стол: Hyprland + Kitty + Waybar</i>
+</p>
+
+<p align="center">
+  <img src="demonstaration/screen2.png" width="45%" />
+  <img src="demonstaration/screen3.png" width="45%" />
+  <br>
+  <i>Кастомная тема Firefox и лаунчер Rofi</i>
+</p>
+
+<p align="center">
+  <img src="demonstaration/SDDM.png" width="90%" />
+  <br>
+  <i>Кастомная тема для SDDM</i>
 </p>
 
 ---
