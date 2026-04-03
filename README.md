@@ -3,6 +3,23 @@
 Минималистичный и эстетичный конфиг для Hyprland, заточенный под продуктивность и визуальный комфорт.
 ---
 
+<h1 align="left"> :blue_book: About</h1> 
+
+</br>
+
+ - OS: [**`Arch Linux`**]
+ - WM: [**`Hyprland`**]
+ - Bar: [**`Waybar`**]
+ - Terminal: [**`Kitty`**]
+ - App Launcher: [**`Rofi`**]
+ - Notify Daemon: [**`Dunst`**]
+ - Shell: [**`ZSH`**]
+
+</br>
+
+
+---
+
 ![gallery](demonstation/screen1.png)
 ![gallery](demonstation/screen2.png)
 ![gallery](demonstation/screen3.png)
