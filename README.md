@@ -3,11 +3,11 @@
 Минималистичный и эстетичный конфиг для Hyprland, заточенный под продуктивность и визуальный комфорт.
 ---
 
-![gallery](demonstration/screen1.png)
-![gallery](demonstration/screen2.png)
-![gallery](demonstration/screen3.png)
-![gallery](demonstration/screen4.png)
-![gallery](demonstration/SDDM.png)
+![gallery](demonstation/screen1.png)
+![gallery](demonstation/screen2.png)
+![gallery](demonstation/screen3.png)
+![gallery](demonstation/screen4.png)
+![gallery](demonstation/SDDM.png)
 
 ---
 
