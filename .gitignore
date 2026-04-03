@@ -1,0 +1,20 @@
+# Системные и временные файлы
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+
+# Кэш VSCodium
+config/VSCodium/Backups/
+config/VSCodium/CachedData/
+config/VSCodium/logs/
+config/VSCodium/User/workspaceStorage/
+
+# Кэш и сессии Firefox
+config/firefox/*.default-release/cache2/
+config/firefox/*.default-release/jumpListCache/
+config/firefox/*.default-release/sessionStore.js
+
+# Мусор в папках
+.cache/
+.thumbnails/
