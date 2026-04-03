@@ -27,6 +27,7 @@
 * **Rofi** — меню приложений.
 * **Waybar** — панель навигации.
 * **Nwg-look** — настройка тем.
+* **Swaybg** — смена обоев.
 
 ---
 
@@ -36,11 +37,46 @@
 Выполни эту команду в терминале (для Arch Linux), чтобы установить всё сразу:
 
 ```bash
-sudo pacman -S sddm qt5-graphicaleffects qt5-quickcontrols2 ttf-jetbrains-mono hyprlock obsidian dunst kitty neovim rofi waybar nwg-look
+sudo pacman -S sddm qt5-graphicaleffects qt5-quickcontrols2 ttf-jetbrains-mono hyprlock obsidian dunst kitty neovim rofi waybar nwg-look swaybg
 
 yay -S vscodium-bin
 ```
 ### 2. Копирование конфигов
 
 ```bash
-sudo cp -r 
+cd Hyprland-dots
+
+cp -r config/* ~/.config/
+```
+### 3. Копирование темы для SDDM
+
+```bash
+sudo cp -r dark-leaf /usr/share/sddm/themes/
+```
+Теперь её нужно применить, открой файл sddm.conf
+```bash
+sudo nano /etc/sddm.conf
+```
+И вставь этот текст:
+---
+[Theme]  
+Current=dark-leaf
+---
+
+### 4. Курсор
+```bash
+sudo cp -r icons/Dracula-cursors /usr/share/icons/
+```
+### 5. Тема для Firefox
+```bash
+cp -r firefox/* ~/.config/mozilla/firefox/*.default-release/
+```
+### 6. Обои и bin (Менюшки и fetch'и)
+```bash
+cp -r Images ~/
+cp -r bin ~/
+
+chmod +x ~/bin/*
+```
+### Приятного использования :)
+
