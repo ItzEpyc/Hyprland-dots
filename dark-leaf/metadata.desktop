@@ -1,0 +1,8 @@
+[Appearance]
+Name=dark-leaf
+MainScript=Main.qml
+ConfigFile=theme.conf
+Email=
+Author=Gemini
+Copyright=2026
+Screenshot=background.png
