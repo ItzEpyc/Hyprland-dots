@@ -3,30 +3,11 @@
 Минималистичный и эстетичный конфиг для Hyprland, заточенный под продуктивность и визуальный комфорт.
 ---
 
-<p align="center">
-  <img src="demonstaration/screen4.png" width="90%" />
-  <br>
-  <i>Основной рабочий стол</i>
-</p>
-
-<p align="center">
-  <img src="demonstaration/screen1.png" width="90%" />
-  <br>
-  <i>Основной рабочий стол: Hyprland + Kitty + Waybar</i>
-</p>
-
-<p align="center">
-  <img src="demonstaration/screen2.png" width="45%" />
-  <img src="demonstaration/screen3.png" width="45%" />
-  <br>
-  <i>Кастомная тема Firefox и лаунчер Rofi</i>
-</p>
-
-<p align="center">
-  <img src="demonstaration/SDDM.png" width="90%" />
-  <br>
-  <i>Кастомная тема для SDDM</i>
-</p>
+![gallery](demonstration/screen1.png)
+![gallery](demonstration/screen2.png)
+![gallery](demonstration/screen3.png)
+![gallery](demonstration/screen4.png)
+![gallery](demonstration/SDDM.png)
 
 ---
 
